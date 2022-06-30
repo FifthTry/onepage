@@ -4,6 +4,8 @@
 zip: github.com/fifthtry/onepage/archive/refs/heads/main.zip
 
 -- fpm.dependency: fifthtry.github.io/doc-site as ds
--- fpm.dependency: fifthtry.github.io/resume as res
+-- fpm.dependency: fifthtry.github.io/resume
 
 
+-- fpm.auto-import: ds
+-- fpm.auto-import: fifthtry.github.io/onepage/FPM/config
