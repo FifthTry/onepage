@@ -3,6 +3,22 @@
 -- fpm.package: fifthtry.github.io/onepage
 zip: github.com/fifthtry/onepage/archive/refs/heads/main.zip
 
--- fpm.dependency: fifthtry.github.io/doc-site as ds
+-- fpm.dependency: fifthtry.github.io/doc-site as resume
+-- fpm.dependency: fifthtry.github.io/resume
 
--- fpm.auto-import: ds
+
+-- fpm.auto-import: resume
+-- fpm.auto-import: fifthtry.github.io/onepage/FPM/config
+
+-- fpm.sitemap:
+
+# Home: /index.html
+
+# With-toc: /with-toc/
+- Sample Toc Item: /with-toc/
+/- Howto: /-/fifthtry.github.io/resume/how-to/
+  name: onepage
+# Full Page: /full-page/
+
+
+
