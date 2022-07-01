@@ -1,5 +1,4 @@
 -- import: fifthtry.github.io/onepage as op
--- import: fpm
 -- import: fifthtry.github.io/resume/sample as s
 
 
@@ -12,9 +11,5 @@
 
 
 
--- ftd.column:
-width: fill
-background-color: $fpm.color.main.background.base
-
---- op.my-resume:
-data: $s.john-doe
+-- op.full-page:
+resume: $s.john-doe
