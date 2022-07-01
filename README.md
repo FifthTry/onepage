@@ -1,2 +1,2 @@
 # OnePage Resume Theme
-Based on FTD resume template: fifthtry.github.io/resume/
+FTD resume theme by FifthTry - inspired by jsonresume.org based on fifthtry.github.io/resume/
