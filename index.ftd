@@ -78,7 +78,6 @@ weight: 700
 resume: $s.john-doe
 
 
-
 -- ftd.column full-page:
 res.resume resume:
 width: fill
@@ -86,6 +85,7 @@ background-color: $fpm.color.main.background.base
 
 --- show-resume:
 resume: $resume
+
 
 
 
@@ -1267,7 +1267,6 @@ align: center
 
 
 
-
 -- ftd.column skill-card-resume:
 optional caption name:
 res.keyword list keyword:
@@ -1440,7 +1439,6 @@ top: 0
 width: percent 1
 role: $rating-font
 color: $fpm.color.main.text-strong
-
 
 
 
@@ -2027,8 +2025,6 @@ color: $fpm.color.main.text
 
 
 
-
-
 -- ftd.column certificate-card-resume:
 optional caption name:
 optional string issuer:
@@ -2428,4 +2424,3 @@ if: $url is not null
 link: $url
 role: $fpm.type.fine-print
 color: $fpm.color.main.text
-
