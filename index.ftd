@@ -72,10 +72,12 @@ weight: 700
 
 
 -- ds.page:
-/resume: $s.john-doe
 
 -- show-resume: 
 resume: $s.john-doe
+
+
+
 
 
 -- ftd.column full-page:
